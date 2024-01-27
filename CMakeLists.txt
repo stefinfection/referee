@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 configure_file(src/ControllerConfig.h.in src/Controller.h)
 
-add_executable(referee main.cpp src/Controller.cpp)
+add_executable(referee src/Controller.cpp)
 
 target_include_directories(referee PUBLIC
         "${PROJECT_BINARY_DIR}"
