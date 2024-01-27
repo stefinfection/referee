@@ -20,49 +20,41 @@ Referee requires:
 
 ### Installing
 
-`git clone https://github.com/stefinfection/referee.git`
-`cd referee`
-
+```bash
+git clone https://github.com/stefinfection/referee.git
+cd referee
+mkdir build
+cd build
+mkdir bin lib
+cmake ..
+cmake --build .
+```
 
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+./{path_to_referee}/build/bin/referee
 ```
 
 ## Help
 
-Any advise for common problems or issues.
+[Email](mailto:stephanie.georges@utah.edu) with questions.
 ```
-command to run if program contains helper info
+./{path_to_referee}/build/bin/referee --help
 ```
 
 ## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+[Stephanie Georges](https://www.linkedin.com/in/stephanie-georges-19388784/)
+in the [Marth Lab](https://marthlab.org/)
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
+* 1.0
     * Initial Release
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+This work was conceived by and based on many years of work by [Andrew Farrell](https://www.linkedin.com/in/andrew-farrell-14634817b/). 
