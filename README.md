@@ -8,12 +8,14 @@ adaptation of the [RUFUS](https://github.com/marthlab/RUFUS) project developed b
 referee is a slimmed down version of the RUFUS tool. In addition to being more light-weight
 and faster than its predecessor, referee more accurately identifies somatic mutations.
 
+This project follows the open-std canonical project structure recommendations [P1204R0](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
+
 ## Getting Started
 
 ### Dependencies
 
 referee requires:
-* [Jellyfish]() - A fast, memory-efficient counting tool for k-mers.
+* [KMC3](https://github.com/refresh-bio/KMC) - A disk-based program for counting k-mers by REFRESH Bioinformatics Group
 * [BWA]() - A software package for mapping low-divergent sequences against a large reference genome.
 * [HTSLIB]() - A C library for reading/writing high-throughput sequencing data.
 * [Samtools]() - Utilities for the Sequence Alignment/Map (SAM) format.

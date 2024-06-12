@@ -1,0 +1,2 @@
+#define referee_VERSION_MAJOR @referee_VERSION_MAJOR@
+#define referee_VERSION_MINOR @referee_VERSION_MINOR@
